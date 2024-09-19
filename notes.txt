@@ -1,0 +1,9 @@
+for post order:
+ if(node==NULL){
+            return;
+        }
+        cout<<node->data<<" ";
+        postorder(node->left);
+        postorder(node->right);
+
+postorder-data-left-right
